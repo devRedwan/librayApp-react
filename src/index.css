@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .App {
@@ -45,8 +45,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-
 
 ul {
   display: flex;
@@ -217,15 +215,14 @@ button:active {
   color: white;
 }
 
-
-/* 
+/*
 
 LANDING
 
 */
 
 #landing {
-  background-color: rgba(115, 66, 214, 0.1)
+  background-color: rgba(115, 66, 214, 0.1);
 }
 
 header {
@@ -251,11 +248,11 @@ header {
 .header__img--wrapper {
   padding: 20px;
 
-  /* Added this after the tutorial to 
+  /* Added this after the tutorial to
   show it over the wave on larger screens */
   z-index: 50;
-  
-  /* Added this after the tutorial to 
+
+  /* Added this after the tutorial to
   make landing page responsive on laptops */
   max-height: 50vh;
 }
@@ -284,9 +281,9 @@ header {
 .no-cursor {
   cursor: not-allowed;
 }
-/* 
+/*
 
-HIGHLIGHTS 
+HIGHLIGHTS
 
 */
 
@@ -355,9 +352,9 @@ HIGHLIGHTS
   text-align: center;
 }
 
-/* 
+/*
 
-FEATURES 
+FEATURES
 
 */
 
@@ -412,7 +409,7 @@ FEATURES
 }
 
 .book__price--skeleton {
-  width : 200px;
+  width: 200px;
   height: 19px;
 }
 
@@ -447,7 +444,7 @@ FEATURES
   color: #bfbfbf;
 }
 
-/* 
+/*
 
 EXPLORE
 
@@ -457,7 +454,7 @@ EXPLORE
   background-color: rgba(115, 66, 214, 0.1);
 }
 
-/* 
+/*
 
 FOOTER
 
@@ -489,7 +486,7 @@ footer {
   padding: 0 8px;
 }
 
-/* 
+/*
 **
 
 BOOKS PAGE
@@ -506,7 +503,7 @@ BOOKS PAGE
 
 #books__main {
   flex: 1;
-  background-color: rgb(248,249,250);
+  background-color: rgb(248, 249, 250);
 }
 
 .books__header {
@@ -557,10 +554,10 @@ select {
   }
 }
 
-/* 
+/*
 
   book/:id
-    
+
 */
 
 .container__book--selected {
@@ -620,7 +617,7 @@ select {
 }
 
 .book__selected--title {
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 
 .book__summary--title {
@@ -641,10 +638,10 @@ select {
   margin-bottom: 16px;
 }
 
-/* 
+/*
 
-  CART 
-    
+  CART
+
 */
 
 .cart__header {
@@ -695,7 +692,6 @@ select {
   max-width: 90px;
   max-height: 128px;
 }
-
 
 .cart__book--info {
   display: flex;
@@ -800,7 +796,6 @@ select {
     width: 100%;
   }
 }
-
 
 /* SMALL PHONES, LARGE SMARTPHONES */
 @media (max-width: 550px) {
