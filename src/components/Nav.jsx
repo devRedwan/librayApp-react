@@ -42,7 +42,7 @@ const Nav = () => {
           </li>
         </ul>
 
-        {/* <div className="menu__backdrop">
+        <div className="menu__backdrop">
           <button className="btn__menu btn__menu--close" onClick={closeMenu}>
             <FontAwesomeIcon icon="times"></FontAwesomeIcon>
           </button>
@@ -63,7 +63,7 @@ const Nav = () => {
               </Link>
             </li>
           </ul>
-        </div> */}
+        </div>
       </div>
     </nav>
   );
