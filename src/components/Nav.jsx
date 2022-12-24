@@ -35,7 +35,7 @@ const Nav = () => {
           </button>
 
           <li className="nav__icon">
-            <Link to="/" className="nav__link">
+            <Link to="/cart" className="nav__link">
               <FontAwesomeIcon icon="shopping-cart"></FontAwesomeIcon>
             </Link>
             <span className="cart__length">2</span>
