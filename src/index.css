@@ -82,6 +82,11 @@ button:active {
   font-size: 20px;
   border-radius: 4px;
   border: none;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
 }
 
 .purple {
